@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: kallisto-lined, sans-serif;
+}
+
+header{
+  background-image: url("/Users/mymac/Documents/Main Website/img/mainbackground.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #A22525;
+  padding: 5px 20px;
+  font-style: normal;
+  text-shadow: -1px 0 #FFCF00, 0 1px #FFCF00, 1px 0 #FFCF00, 0 -1px #FFCF00;
+}
+
+ul li a:hover{
+  background-color: #FFCF00;
+  color: #000;
+  transition: 0.2s ease;
+
+}
+
+.active a{
+  background-color: #FFCF00;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  width: 200px;
+  height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.profile-info img{
+  width: 350px;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  opacity: 0.80;
+
+}
+
+.profile-info h1{
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  color: #FFCF00;
+  font-size: 50px;
+  opacity: 0.80;
+}
+
+.profile-info p{
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  color: #FFCF00;
+  font-size: 20px;
+  opacity: 0.80;
+}
